@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-02T06:57:03.810Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="oTEN1yJSQfSWEcykHMpU" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-02T06:59:32.933Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="k4H-yprN7Lpp54LnTDEy" version="14.2.9" type="github">
   <diagram id="Z4pQyJZv-I7KKcUWaeE-" name="第 1 页">
     <mxGraphModel dx="1992" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -70,6 +70,38 @@
         </mxCell>
         <mxCell id="bnWd4beWPdAcA_Ngpglb-42" value="HandlerMethodCollector" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-550" y="710" width="690" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-44" value="HandlerMethodMatcher" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="780" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnWd4beWPdAcA_Ngpglb-45" target="bnWd4beWPdAcA_Ngpglb-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-45" value="AbstractHandlerMethodMatcher" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="880" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-53" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnWd4beWPdAcA_Ngpglb-48" target="bnWd4beWPdAcA_Ngpglb-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-48" value="LengthGroupHandlerMethodMatcher" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="1000" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnWd4beWPdAcA_Ngpglb-50" target="bnWd4beWPdAcA_Ngpglb-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-50" value="LengthHandlerMethodMatcher" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1000" width="200" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnWd4beWPdAcA_Ngpglb-51" target="bnWd4beWPdAcA_Ngpglb-45">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1060" y="980" />
+              <mxPoint x="750" y="980" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-51" value="GroupHandlerMethodMatcher" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="880" y="1000" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
