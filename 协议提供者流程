@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-02T07:09:56.083Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="MplhYixv0UwO3JxmQcrf" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-02T07:11:31.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="IeWVpL24VzdR9Swtj1v5" version="14.2.9" type="github">
   <diagram id="Z4pQyJZv-I7KKcUWaeE-" name="第 1 页">
     <mxGraphModel dx="2819" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -176,6 +176,24 @@
         </mxCell>
         <mxCell id="bnWd4beWPdAcA_Ngpglb-83" value="CustomParamMethodArgumentResolver" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1460" width="230" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-91" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="1650" width="800" height="270" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-92" value="HandlerMethodArgumentInjectionFactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1660" width="740" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-93" value="HandlerMethodArgumentInjection" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1690" width="196" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-94" value="LoginUserInfoHandlerMethodArgumentInjection" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1800" width="260" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-95" value="LongHandlerMethodArgumentInjection" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="311" y="1800" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-96" value="customHandlerMethodArgumentInjection" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="1800" width="220" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
