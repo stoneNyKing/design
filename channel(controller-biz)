@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-02T06:44:26.414Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="bN1lb6qYFk2tBuBLK9bv" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-02T06:44:36.303Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="iQwANzJB8SA0Zqao1gbN" version="14.2.9" type="github">
   <diagram id="1MMEfMpHKbkD8UL_Ay6m" name="第 1 页">
     <mxGraphModel dx="1993" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -72,7 +72,7 @@
           <mxGeometry x="414" y="950" width="200" height="110" as="geometry" />
         </mxCell>
         <mxCell id="MjcWCBCktR9W3UczOGiu-32" value="MQProxyInvocationHandler" style="html=1;" vertex="1" parent="1">
-          <mxGeometry x="670" y="950" width="200" height="110" as="geometry" />
+          <mxGeometry x="660" y="950" width="200" height="110" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
