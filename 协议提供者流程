@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-02T07:12:50.319Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="j6qEyqOPMVucPw2Y2Yzk" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-02T07:14:16.270Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="ss2KXRNOFZOkZzoFFQ89" version="14.2.9" type="github">
   <diagram id="Z4pQyJZv-I7KKcUWaeE-" name="第 1 页">
     <mxGraphModel dx="2819" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -185,6 +185,9 @@
         <mxCell id="bnWd4beWPdAcA_Ngpglb-83" value="CustomParamMethodArgumentResolver" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="1460" width="230" height="90" as="geometry" />
         </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-104" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bnWd4beWPdAcA_Ngpglb-91" target="bnWd4beWPdAcA_Ngpglb-103">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="bnWd4beWPdAcA_Ngpglb-91" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-25" y="1710" width="800" height="270" as="geometry" />
         </mxCell>
@@ -223,6 +226,20 @@
         </mxCell>
         <mxCell id="bnWd4beWPdAcA_Ngpglb-96" value="customHandlerMethodArgumentInjection" style="html=1;" vertex="1" parent="1">
           <mxGeometry x="525" y="1870" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-105" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnWd4beWPdAcA_Ngpglb-103" target="bnWd4beWPdAcA_Ngpglb-76">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="2080" />
+              <mxPoint x="900" y="1445" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-103" value="invokeMethod" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="325" y="2030" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-106" value="resultResolverArgument" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+          <mxGeometry x="760" y="2060" width="140" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
