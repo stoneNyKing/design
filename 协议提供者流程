@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-04-02T07:05:26.473Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="elQr8kMHmeze8B7J8H1V" version="14.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2021-04-02T07:08:34.221Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.63" etag="QxjMM0QC2uNTd6l-oFtY" version="14.2.9" type="github">
   <diagram id="Z4pQyJZv-I7KKcUWaeE-" name="第 1 页">
     <mxGraphModel dx="2819" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -131,6 +131,43 @@
         </mxCell>
         <mxCell id="bnWd4beWPdAcA_Ngpglb-72" value="&lt;span&gt;HandlerMethodMatchFactory&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-80" y="790" width="910" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-76" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="1180" width="930" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-77" value="HandlerMethodArgumentResolverFactory" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="1190" width="910" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-79" value="HandlerMethodArgumentResolver" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="272" y="1250" width="198" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-85" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnWd4beWPdAcA_Ngpglb-80" target="bnWd4beWPdAcA_Ngpglb-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="115" y="1330" />
+              <mxPoint x="371" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-80" value="JsonParamMethodArgumentResolver" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="1350" width="210" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-86" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnWd4beWPdAcA_Ngpglb-82" target="bnWd4beWPdAcA_Ngpglb-79">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-82" value="LatticeJsonParamMethodArgumentResolver" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="1350" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-87" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="bnWd4beWPdAcA_Ngpglb-83" target="bnWd4beWPdAcA_Ngpglb-79">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="635" y="1330" />
+              <mxPoint x="371" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bnWd4beWPdAcA_Ngpglb-83" value="CustomParamMethodArgumentResolver" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1350" width="230" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
